@@ -1,0 +1,23 @@
+insertion sort is a simple sorting  algorithm that works similar to the way you sort playing cards playing cards in your hands,
+The array is virtually split into a sorted and an unsorted placed at the correct position in the sorted part.
+
+Algorithm:
+ to sort an array of size n in ascending order.
+ 1. iterate from arr[1]  to arr[n] over the array.
+ 2. compare  the current element (key) to its predecessor.
+ 3. If the key element is smaller than its predecessor campare it to the elements before.
+ move the greater elements one position up to make space for the swapped element.
+
+ Example:
+ 12   11 13 5 6
+ let up loop for i =1 (second element of the array) to 4
+ (last element of the array)
+ i=1 ,Since 11 is smaller than 12, move 12 and insert 11 before 12
+ 11 12 13 5 6
+ .
+ .
+ .
+ .
+ i=4, will move to position after 5, and elements from 11 to 13 will move one position ahead of their current position.
+ 5 6 11 12 13
+ 

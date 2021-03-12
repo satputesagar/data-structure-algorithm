@@ -1,0 +1,7 @@
+Bubble osrt is the simplest sorting algorithm that works by repeatedly swapping the adjacent element if they are in wrong order.
+Example:
+5 1 4 2 8 this algorithm working compares the first two element and swap... then this condition repeated.
+now the array is already sorted ,but our algorithm does not know if it is completed. the algorithm needs one whole pass without any swap to know it is sorted.
+worst and Average case time complexity: O(n*n) reverse sorted.
+best case time complexity :O(n) array is al sorted.
+boundary cases:bubble sort takes minimum time (order of n) when elements are already sorted.
